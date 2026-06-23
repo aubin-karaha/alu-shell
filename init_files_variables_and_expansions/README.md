@@ -1,14 +1,12 @@
 # Shell Init Files, Variables and Expansions
 
-Scripts covering shell variables, expansions and arithmetic on Ubuntu 20.04 LTS.
-
 ## Scripts
 - **0-alias** - Creates alias ls="rm *"
 - **1-hello_you** - Prints hello followed by current user
 - **2-path** - Adds /action to the PATH
 - **3-paths** - Counts number of directories in PATH
 - **4-global_variables** - Lists all environment variables
-- **5-local_variables** - Lists all local variables, environment variables and functions
+- **5-local_variables** - Lists all local variables and functions
 - **6-create_local_variable** - Creates local variable BEST=School
 - **7-create_global_variable** - Creates global variable BEST=School
 - **8-true_knowledge** - Prints 128 + TRUEKNOWLEDGE
