@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script displays current directory content, showing only part after first dash
+for file in ./*
+do
+    echo "${file#./*-}"
+done
