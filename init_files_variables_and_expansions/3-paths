@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr -cd ":" | wc -c | xargs -I{} expr {} + 1
+echo "$PATH" | tr ":" "\n" | grep -v "^$" | wc -l
